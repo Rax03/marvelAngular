@@ -1,0 +1,13 @@
+
+  {
+    "/marvel": {
+      "target": "https://gateway.marvel.com",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/marvel": ""
+      }
+    }
+  }
+  
+  

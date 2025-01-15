@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { AngularFireAuth } from '@angular/fire/compat/auth';
-import firebase from 'firebase/compat/app';
+import { AngularFireAuth } from '@angular/fire/compat/auth'; // Asegúrate de usar '/compat' si estás usando AngularFire 7+
+import firebase from 'firebase/compat/app'; // Asegúrate de usar '/compat' si estás usando AngularFire 7+
 
 @Component({
   selector: 'app-login',
@@ -18,8 +18,9 @@ export class LoginComponent {
         console.error('Error during login:', error);
       });
   }
+
+  addCharacter() {
+    // Aquí debes agregar la lógica para añadir personaje.
+    console.log('Character added!');
+  }
 }
-
-
-
-
